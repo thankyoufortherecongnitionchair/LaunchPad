@@ -1,6 +1,6 @@
 # LaunchPad
 
-# with this project, I aim to create a public, completely free to download through npm library of front end components that beginners would need for any boilerplate angular application, such as validated forms, component cards, login pages, integrated headers with profile login, and much much more. 
+With this project, I aim to create a public, completely free to download through npm library of front end components that beginners would need for any boilerplate angular application, such as validated forms, component cards, login pages, integrated headers with profile login, and much much more. 
 
 
 
