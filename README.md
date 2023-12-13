@@ -1,5 +1,8 @@
-# LaunchPad
+  # LaunchPad 
 
+<div>
+   <img src="https://github.com/thankyoufortherecongnitionchair/LaunchPad/assets/77891681/ae7b304b-578d-4bac-af1d-06a318b65f8a" height="50", width="50">
+</div>
 This project aims to be a library of well crafted, detailed and highly used web-app components that beginners in angular can easily download off of NPM and integrate into their own projects.
 
 # Skeleton:
@@ -7,10 +10,11 @@ This project aims to be a library of well crafted, detailed and highly used web-
 below is a fairly rudimentary example of how so:
 
 Component Folder named Buttons in master directory (My system)
-
+```html
 <button>hello world</button>
+```
 ordinary export in ts file,
-
+```typescript
 module.ts exports it to be built later on using ng cli
 import { NgModule } from '@angular/core';
 import { AniruddhCompsLibComponent } from './aniruddh-comps-lib.component';
@@ -22,10 +26,10 @@ import { ButtonsComponent } from './buttons/buttons.component';
   exports: [AniruddhCompsLibComponent, ButtonsComponent],
 })
 export class AniruddhCompsLibModule {}
-
+```
 Now, the button component can easily be imported by users into their systems.
 
-
+# Angular dev details:
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
 
 ## Development server
