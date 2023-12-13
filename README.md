@@ -1,7 +1,29 @@
 # LaunchPad
 
-With this project, I aim to create a public, completely free to download through npm library of front end components that beginners would need for any boilerplate angular application, such as validated forms, component cards, login pages, integrated headers with profile login, and much much more. 
+This project aims to be a library of well crafted, detailed and highly used web-app components that beginners in angular can easily download off of NPM and integrate into their own projects.
 
+# Skeleton:
+
+below is a fairly rudimentary example of how so:
+
+Component Folder named Buttons in master directory (My system)
+
+<button>hello world</button>
+ordinary export in ts file,
+
+module.ts exports it to be built later on using ng cli
+import { NgModule } from '@angular/core';
+import { AniruddhCompsLibComponent } from './aniruddh-comps-lib.component';
+import { ButtonsComponent } from './buttons/buttons.component';
+
+@NgModule({
+  declarations: [AniruddhCompsLibComponent, ButtonsComponent],
+  imports: [],
+  exports: [AniruddhCompsLibComponent, ButtonsComponent],
+})
+export class AniruddhCompsLibModule {}
+
+Now, the button component can easily be imported by users into their systems.
 
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.1.8.
