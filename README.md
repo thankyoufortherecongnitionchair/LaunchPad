@@ -56,3 +56,6 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+<hr>
+icon by :
+<a href="https://www.flaticon.com/free-icons/new-product" title="new product icons">New product icons created by Flat Icons - Flaticon</a>
