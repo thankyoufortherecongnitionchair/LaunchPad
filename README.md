@@ -1,6 +1,6 @@
   # LauncherX
 
-  open to contributions. If you're an angular dev, let me know!
+  Open to contributions. If you're an angular dev, let me know!
 <div>
    <img src="https://github.com/thankyoufortherecongnitionchair/LaunchPad/assets/77891681/ae7b304b-578d-4bac-af1d-06a318b65f8a" height="50", width="50">
 </div>
